@@ -3,7 +3,7 @@ public class Objective2Lab3 {
 
     int year = 1978;
     string month = "September";
-    boolean weekend = true;
+    string weekend = true;
 
     System.out.println(year);
     System.out.println(month);
