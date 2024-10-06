@@ -4,6 +4,8 @@ public class Objective2Lab2 {
     String age = "Age: 46";
     String state = "State: Minnesota";
 
-    System.out.println("name age state");
+    System.out.println(name);
+    System.out.println(age);
+    System.out.println(state);
   }
 }
