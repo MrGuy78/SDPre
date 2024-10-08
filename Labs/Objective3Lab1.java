@@ -5,10 +5,10 @@ public class Objective3Lab1 {
     System.out.println(num1);
     double num2 = 10;
     System.out.println(num2);
-    double num3 = 13;
+    double num3 = 12;
     System.out.println(num3);
-    double average = 9;
-    System.out.println(9);
+    double average = 8.66666667;
+    System.out.println(8.66666667);
 
   }
 }
