@@ -20,8 +20,8 @@ public class Objective4Lab2 {
     double dub3 = keyboard.nextDouble();
     double decimalAnswer = (dub1 + dub2 + dub3);
 
-    System.out.println(num1 + num2 + num3 = wholeAnswer);
-    System.out.println(dub1 + dub2 + dub3 = decimalAnswer);
+    System.out.println(num1 + "+" + num2 + "+" + num3 "=" wholeAnswer);
+    System.out.println(dub1 + "+" + dub2 + "+" + dub3 "=" decimalAnswer);
 
     keyboard.close();
 
