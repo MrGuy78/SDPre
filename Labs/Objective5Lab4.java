@@ -8,7 +8,7 @@ public class Objective5Lab3 {
       if(userNum % 2 == 0) {
         System.out.println("The number is even");
       }
-      else(userNum % 2 != 0) {
+      else if(userNum % 2 != 0) {
         System.out.println("The number is odd");
       }
 
