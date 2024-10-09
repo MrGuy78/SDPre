@@ -11,7 +11,7 @@ public class Objective4Lab2 {
     int num2 = keyboard.nextLine();
     System.out.println("Choose one last whole number.");
     int num3 = keyboard.nextLine();
-    int wholeAnswer = (num1 + num2 + num3)
+    int wholeAnswer = (num1 + num2 + num3);
     System.out.println("Choose a decimal number.");
     double dub1 = keyboard.nextDouble();
     System.out.println("Choose another decimal number.");
