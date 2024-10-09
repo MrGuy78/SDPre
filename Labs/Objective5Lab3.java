@@ -1,6 +1,6 @@
 public class Objective5Lab3 {
     public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
+      Scanner keyboard = new Scanner(System.in);
 
       System.out.println("Please enter a number: ");
       int userNum = input.nextInt();
@@ -15,6 +15,6 @@ public class Objective5Lab3 {
         System.out.println(userNum + " is positive.");
       }
 
-      scanner.close();
+      keyboard.close();
   }
 }
