@@ -4,7 +4,7 @@ public class SwitchExample {
 		grade = 'B';
 
 		switch (grade) {
-		case "A":
+		case 'A':
 		  System.out.println("Fantastic job!");
 		  break;
 		case 'B':
