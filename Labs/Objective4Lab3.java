@@ -3,7 +3,7 @@ public class Objective4Lab3 {
   public static void main(String[] args) {
     in birthYear, age, currentYear;
 
-    birthYear = ;
+    birthYear = 0;
     currentYear = 2024;
 
    Scanner input = new Scanner(System.in);
