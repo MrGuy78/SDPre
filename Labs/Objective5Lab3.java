@@ -11,7 +11,7 @@ public class Objective5Lab3 {
       else if(userNum < 0) {
         System.out.println(userNum + " is negative");
       }
-      else(userNum.equals(0)) {
+      else {
         System.out.println(userNum + " is positive");
       }
 
