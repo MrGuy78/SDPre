@@ -7,14 +7,14 @@ public class SwitchExample {
 		case "A":
 		  System.out.println("Fantastic job!");
 		  break;
-		case 'B';
+		case 'B':
 		  System.out.println("Good job!");
 		  break;
-		case 'C';
+		case 'C':
 		  System.out.println("You're doing okay.");
-		case 'D';
+		case 'D':
 		  System.out.println("Please schedule a conference.");
-		case 'F';
+		case 'F':
 		  System.out.println("Start finishing homework and showing up to class.");
 		default:
 		  System.out.println("Invalid grade.");
