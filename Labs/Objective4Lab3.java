@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Objective4Lab3 {
   public static void main(String[] args) {
-    in birthYear, age, currentYear;
+    int birthYear, age, currentYear;
 
     birthYear = 0;
     currentYear = 2024;
