@@ -9,10 +9,10 @@ public class Objective5Lab3 {
       if(userNum.equals(0)) {
         System.out.println(userNum + " is neutral.");
       }
-      if(userNum < 0) {
+      else if(userNum < 0) {
         System.out.println(userNum + " is negative.");
       }
-      if(userNum > 0) {
+      else if(userNum > 0) {
         System.out.println(userNum + " is positive.");
       }
 
