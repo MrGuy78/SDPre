@@ -1,12 +1,12 @@
 public class Objective5Lab3 {
     public static void main(String[] args) {
-      Scanner keyboard = new Scanner(System.in);
+      Scanner scanner = new Scanner(System.in);
 
       System.out.println("Please enter a number: ");
       int userNum = input.nextInt();
 
-      if(userNum.equals(0)) {
-        System.out.println(userNum + " is neutral.");
+      if(userNum.equals0) {
+        System.out.println(userNum + " is zero.");
       }
       else if(userNum < 0) {
         System.out.println(userNum + " is negative.");
@@ -15,6 +15,6 @@ public class Objective5Lab3 {
         System.out.println(userNum + " is positive.");
       }
 
-      keyboard.close();
+      scanner.close();
   }
 }
