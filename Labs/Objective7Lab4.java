@@ -9,5 +9,6 @@ public class Objective7Lab4 {
     } while(count <= 20);
 
     sum = (count);
+    System.out.println(sum);
   }
 }
