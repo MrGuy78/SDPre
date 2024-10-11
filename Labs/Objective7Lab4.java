@@ -1,4 +1,4 @@
-public class Objective7Lab3 {
+public class Objective7Lab4 {
   public static void main(String[] args) {
     int sum;
     int count = 0;
