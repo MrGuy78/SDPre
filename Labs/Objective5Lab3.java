@@ -12,7 +12,7 @@ public class Objective5Lab3 {
         System.out.println(userNum + " is negative");
       }
       else {
-        System.out.println(userNum + " is zero");
+        System.out.println("Your number is 0");
       }
 
       scanner.close();
