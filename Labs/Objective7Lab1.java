@@ -3,7 +3,7 @@ public class Objective7Lab1 {
     int counter = 10;
 
     while(counter > 0) {
-      System.out.println("num is " + num);
+      System.out.println("num is " + counter);
     
       counter = counter - 1; 
     }
