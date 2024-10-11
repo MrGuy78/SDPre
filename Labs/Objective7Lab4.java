@@ -1,14 +1,14 @@
 public class Objective7Lab4 {
   public static void main(String[] args) {
-    int sum;
+    int sum = 0;
     int count = 0;
 
-    do {
+    do{
+      sum = sum+count;
       count++;
 
-    } while(count <= 20);
+    } while(count < 20);
 
-    sum = (count);
     System.out.println(sum);
   }
 }
