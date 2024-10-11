@@ -5,7 +5,7 @@ public class Objective7Lab2 {
     while(counter <= 20) {
       System.out.println(counter);
 
-      counter = counter -1;
+      counter = counter + 1;
     }
   }
 }
