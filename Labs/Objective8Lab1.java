@@ -5,7 +5,7 @@ public class Objective8Lab1 {
       System.out.println(i);
     }
 
-    for (int j=10; j >=10; j-=1) {
+    for (int j=10; j <=10; j-=1) {
       System.out.println(j);
     }
 
