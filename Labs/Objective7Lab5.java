@@ -13,7 +13,7 @@ public class Objective7Lab5 {
       System.out.println();
     }
 
-      else if (selection = 2) {
+      if (selection = 2) {
       System.out.println("Apples, Bananas, Coconuts");
       System.out.println("_____Menu_____");
       System.out.println("1: Say Hello");
@@ -22,7 +22,7 @@ public class Objective7Lab5 {
       System.out.println();
     }
 
-      else if (selection = 3) {
+      if (selection = 3) {
       System.out.println("Goodbye");
     }
 
