@@ -5,7 +5,7 @@ public class Objective7Lab5 {
 
     while (true) {
       if(selection = 1);
-      System.out.println("Hello World")
+      System.out.println("Hello World");
       System.out.println("_____Menu_____");
       System.out.println("1: Say Hello");
       System.out.println("2: List My favorite foods");
@@ -21,7 +21,7 @@ public class Objective7Lab5 {
       System.out.println();
 
       else if(selection = 3);
-      System.out.println("Goodbye")
+      System.out.println("Goodbye");
       selection = scanner.nextInt();
 
     }
