@@ -1,4 +1,4 @@
-public class Objective5Lab3 {
+public class Objective5Lab4 {
     public static void main(String[] args) {
       java.util.Scanner scanner = new java.util.Scanner(System.in);
 
