@@ -1,6 +1,6 @@
 public class Objective8Lab3 {
   public static void main(String[] args) {
-    counter = 1;
+    int counter = 1;
 
     for (counter = 1; counter <= 20; counter++) {
       if(counter % 2 = 0) {
