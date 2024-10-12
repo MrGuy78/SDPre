@@ -6,7 +6,7 @@ public class Objective9Lab2 {
   }
 
   public static void printMessage() {
-    System.out.println("In Method");
+    System.out.println("In method");
     
   }
 }
