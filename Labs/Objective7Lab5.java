@@ -20,6 +20,7 @@ public class Objective7Lab5 {
     }
       if(selection == 3) {
         System.out.println("Goodbye");
+        break;
       }
     }
 
