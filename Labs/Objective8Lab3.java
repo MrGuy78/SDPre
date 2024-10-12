@@ -7,7 +7,7 @@ public class Objective8Lab3 {
         System.out.println(counter + " is even.");
       }
       else {
-        System.out.println(counter = " is odd.");
+        System.out.println(counter + " is odd.");
       }
 
     }
