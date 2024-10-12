@@ -3,7 +3,7 @@ public class Objective7Lab5 {
     java.util.Scanner scanner = new java.util.Scanner(System.in);
     int selection;
 
-    while (selection <3) {
+    while (true) {
       System.out.println("_____Menu_____");
       System.out.println("1: Say Hello");
       System.out.println("2: List My favorite foods");
@@ -12,13 +12,13 @@ public class Objective7Lab5 {
 
       selection = scanner.nextInt();
 
-      if(selection = 1) {
+      if(selection == 1) {
         System.out.println("Hello World");
     }
-      if(selection = 2){
+      if(selection == 2){
         System.out.println("Apples, Bananas, Coconuts");
     }
-      if(selection = 3) {
+      if(selection == 3) {
         System.out.println("Goodbye");
       }
     }
