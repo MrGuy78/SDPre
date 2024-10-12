@@ -1,4 +1,4 @@
-public class ObjectiveLab3 {
+public class Objective9Lab3 {
   public static void main(String[] args) {
     java.util.Scanner scanner = new java.util.Scanner(System.in);
     int selection;
@@ -6,7 +6,7 @@ public class ObjectiveLab3 {
     while(true){
       printMenu();
 
-      selection = scanner.nextInt;
+      selection = scanner.nextInt();
 
       if(selection == 1) {
         System.out.println("Hello Human");
