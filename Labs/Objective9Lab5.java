@@ -37,7 +37,7 @@ public class Objective9Lab5 {
 
 				case 4:
 					System.out.println("You've chosen to quit.");
-					break;
+					exit;
 
 				default:
 					System.out.println("Invalid number. Please try again.");
