@@ -14,14 +14,13 @@ public class Objective9Lab5 {
 		System.out.print("Please give me another number: ");
 		num2 = kb.nextDouble();
 
-		double answer = findSum(num1, num2);
-
 		while (keepGoing) {
 			printMenu();
 			System.out.print("Which would you like to do?");
 			choice = kb.nextInt();
 
 			switch (choice) {
+				double answer = findSum(num1, num2);
 				case 1:
 					System.out.println("The sum of " + num1 + " + " + num2 + " = " + answer);
 
