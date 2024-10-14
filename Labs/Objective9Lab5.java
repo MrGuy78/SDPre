@@ -14,7 +14,7 @@ public class Objective9Lab5 {
 		System.out.print("Please give me another number: ");
 		num2 = kb.nextDouble();
 
-		double answer = findSum(num1, num2);
+		answer = findSum(num1, num2);
 
 		while (keepGoing) {
 			printMenu();
