@@ -65,8 +65,8 @@ public class Objective9Lab5 {
 	}
 
 	public static double findSum(double x, double y) {
-		double answer = x + y;
-		return answer;
+		double sum = x + y;
+		return sum;
 	}
 
 	public static double findAverage(double x, double y) {
