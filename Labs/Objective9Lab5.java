@@ -14,8 +14,6 @@ public class Objective9Lab5 {
 		System.out.print("Please give me another number: ");
 		num2 = kb.nextDouble();
 
-		answer = findSum(num1, num2);
-
 		while (keepGoing) {
 			printMenu();
 			System.out.print("Which would you like to do?");
@@ -23,13 +21,14 @@ public class Objective9Lab5 {
 
 			switch (choice) {
 				case 1:
+					answer = findSum(num1, num2);
 					System.out.println("The sum of " + num1 + " + " + num2 + " = " + answer);
 
 				case 2:
-					System.out.println("The average of " + num1 + " and " + num2 + " is " + average);
+					System.out.println("The average of " + num1 + " and " + num2 + " is " + answer);
 
 				case 3:
-					System.out.println("The amount in tax to be collected from a purchase of " + num1 + " and " + num2 + " is " + tax);
+					System.out.println("The amount in tax to be collected from a purchase of " + num1 + " and " + num2 + " is " + answer);
 
 				case 4:
 					System.out.println("You've chosen to quit.");
@@ -64,11 +63,11 @@ public class Objective9Lab5 {
 	}
 
 	public static double findAverage(double x, double y) {
-		double average = (answer)/2;
+		double average = (x + y)/2;
 		return average;
 	}
 	public static double calcTax(double x, double y) {
-		double tax = (answer) * 0.0831;
+		double tax = (x + y) * 0.0831;
 		return tax;
 	}
 
