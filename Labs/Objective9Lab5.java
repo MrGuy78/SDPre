@@ -15,6 +15,8 @@ public class Objective9Lab5 {
 		num2 = kb.nextDouble();
 
 		answer = findSum(num1, num2);
+		average = findAverage(num1, num2);
+		tax = calcTax(num1,num2);
 
 		while (keepGoing) {
 			printMenu();
