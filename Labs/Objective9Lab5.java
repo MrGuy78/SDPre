@@ -21,13 +21,13 @@ public class Objective9Lab5 {
 
 			switch (choice) {
 				case 1:
-					System.out.println("The sum of " + x + " + " + y + " = " + sum);
+					System.out.println("The sum of " + num1 + " + " + num2 + " = " + sum);
 
 				case 2:
-					System.out.println("The average of " + x + "and" + y + " is" + average);
+					System.out.println("The average of " + num1 + "and" + num2 + " is" + average);
 
 				case 3:
-					System.out.println("The amount in tax to be collected from a purchase of " + x + " and " + y + " is " + tax);
+					System.out.println("The amount in tax to be collected from a purchase of " + num1 + " and " + num2 + " is " + tax);
 
 				case 4:
 					System.out.println("You've chosen to quit.");
