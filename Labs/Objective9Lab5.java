@@ -16,7 +16,7 @@ public class Objective9Lab5 {
 
 		while (keepGoing) {
 			printMenu();
-			System.out.print("Which would you like to do?");
+			System.out.print("Which would you like to do? ");
 			choice = kb.nextInt();
 
 			switch (choice) {
