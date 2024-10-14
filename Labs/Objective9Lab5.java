@@ -23,21 +23,25 @@ public class Objective9Lab5 {
 				case 1:
 					answer = findSum(num1, num2);
 					System.out.println("The sum of " + num1 + " + " + num2 + " = " + answer);
+					break;
 
 				case 2:
 					answer = findAverage(num1, num2);
 					System.out.println("The average of " + num1 + " and " + num2 + " is " + answer);
+					break;
 
 				case 3:
 					answer = calcTax(num1, num2);
 					System.out.println("The amount in tax to be collected from a purchase of " + num1 + " and " + num2 + " is " + answer);
+					break;
 
 				case 4:
 					System.out.println("You've chosen to quit.");
-					break;
+					exit();
 
 				default:
 					System.out.println("Invalid number. Please try again.");
+					break;
 
 			}
 
