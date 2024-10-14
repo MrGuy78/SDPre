@@ -15,8 +15,6 @@ public class Objective9Lab5 {
 		num2 = kb.nextDouble();
 
 		answer = findSum(num1, num2);
-		average = findAverage(num1, num2);
-		tax = calcTax(num1,num2);
 
 		while (keepGoing) {
 			printMenu();
@@ -66,11 +64,11 @@ public class Objective9Lab5 {
 	}
 
 	public static double findAverage(double x, double y) {
-		double average = (x + y)/2;
+		double average = (answer)/2;
 		return average;
 	}
 	public static double calcTax(double x, double y) {
-		double tax = (x + y) * 0.0831;
+		double tax = (answer) * 0.0831;
 		return tax;
 	}
 
